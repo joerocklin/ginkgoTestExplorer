@@ -234,10 +234,16 @@
           ],
           "description": "When to execute commands."
         },
-        "ginkgotestexplorer.buildTags": { 
+        "ginkgotestexplorer.buildTags": {
           "type": "string",
           "default": null,
           "description": "Build tags to be passed to ginkgo and vscode debug configuration using the flag `--tags=`",
+          "scope": "resource"
+        },
+        "ginkgotestexplorer.extraFlags": {
+          "type": "string",
+          "default": null,
+          "description": "Extra flags to pass to ginkgo",
           "scope": "resource"
         }
       }
